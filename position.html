@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* position:fixed (the postion of item is not change)even we scroll the postion not change
+        position:sticky(the particular length to move an item)like ad */
+        .parent{
+            background-color: blue;
+            height: 180px;
+            width: 300px;
+        }
+        .child1{
+            background-color: red;
+            height: 50px;
+            width: 250px;
+            position: relative;
+            /* left: 500px; */
+           
+        }
+        .child2{
+            background-color: rgb(77, 201, 129);
+            height: 50px;
+            width: 250px;
+            position: absolute;
+        
+        }
+        .child3{
+            background-color: rgb(255, 218, 52);
+            height: 50px;
+            width: 250px;
+        }
+    </style>
+    <div class="parent">
+        <div class="child1">one</div>
+        <div class="child2">two</div>
+        <div class="child3">three</div>
+    </div>
+</body>
+</html>
